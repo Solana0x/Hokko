@@ -1,0 +1,39 @@
+# Hokko
+
+Hokko 自动化白名单脚本，使用 FakeUserAgents() 支持 Twitter、邮箱及 SUI 地址提交
+
+## 功能
+
+- 自动化钱包地址提交
+- 自动化邮箱提交
+- 自动化 Twitter 提交
+
+## 运行步骤
+
+运行脚本前，请确保已安装 Python 和 Node.js，并通过以下命令安装必要的 Python 包：
+
+1. ```git clone https://github.com/Solana0x/Hokko.git```
+2. ```cd Hokko```
+3. ```npm install```
+4. 在 ```address.txt``` 中添加您的 SUI 钱包地址，在 ```proxy.txt``` 中添加代理（格式：```http://用户名:密码@IP:端口```），在 ```email.txt``` 中添加邮箱。
+5. 运行代码：```node run.js```。
+6. 生成 SUI 密钥对工具：[https://github.com/Solana0x/suikeygen](https://github.com/Solana0x/suikeygen)
+
+## 要求
+
+- Node.js（安装链接：https://nodejs.org/en/download [Windows/Mac]）
+- VPS 服务器（可通过 AWS 免费层、Google 免费层、Gitpod 或线上服务获取，月费约 2-5 美元）
+- 代理服务器（用于生成 Earn 账户，需自行购买）
+
+推荐代理服务：  
+NstProxy - [https://app.nstproxy.com/register?i=SkKXHm](https://app.nstproxy.com/register?i=SkKXHm)
+
+## 技术支持
+
+如有问题，请联系 Discord：`0xphatom`  
+用户ID：[https://discord.com/users/979641024215416842](https://discord.com/users/979641024215416842)
+
+## 社交平台
+
+- Telegram：[https://t.me/phantomoalpha](https://t.me/phantomoalpha)
+- Discord 社区：[https://discord.gg/pGJSPtp9zz](https://discord.gg/pGJSPtp9zz)
